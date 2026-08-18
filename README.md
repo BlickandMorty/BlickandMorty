@@ -16,7 +16,7 @@ responsible for them.
 - **[Epistemos](https://github.com/BlickandMorty/Epistemos)** — research
   intelligence and evidence-traceable reasoning systems.
 - **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)**
-  — 14 tested prompt packs for research, evaluation, memory, agent
+  — 17 tested prompt packs for research, evaluation, memory, agent
   instructions, approval gates, and durable loops.
 - **[Epistemos Labs](https://github.com/BlickandMorty/epistemos-labs)** — a
   tested Rust workspace for evidence gates, deterministic receipts, numerical
