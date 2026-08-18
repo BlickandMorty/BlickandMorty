@@ -6,10 +6,7 @@ formal methods, mathematical experimentation, deterministic software, and
 practical Windows tooling.
 
 I study Chemical Physics at Columbia University and independently study AI,
-mathematics, philosophy, and the foundations of cognition. My earlier military
-work shaped a practical interest in replacing slow operational and
-accountability processes with systems that remain understandable to the people
-responsible for them.
+mathematics, philosophy, and the foundations of cognition.
 
 ## Selected work
 
