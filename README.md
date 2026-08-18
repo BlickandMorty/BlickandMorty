@@ -12,6 +12,9 @@ mathematics, philosophy, and the foundations of cognition.
 
 - **[Epistemos](https://github.com/BlickandMorty/Epistemos)** — research
   intelligence and evidence-traceable reasoning systems.
+- **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)**
+  — a cross-platform Rust engine that fuses title ranking, Tantivy BM25, and
+  deterministic vector similarity for explicit search and ambient note recall.
 - **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)**
   — 17 tested prompt packs for research, evaluation, memory, agent
   instructions, approval gates, and durable loops.
