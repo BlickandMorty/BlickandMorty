@@ -24,8 +24,8 @@ practical Windows tooling.
 - **[Windows Resilience Suite](https://github.com/BlickandMorty/windows-resilience-suite)**
   — audit-first PowerShell modules for performance, maintenance, cleanup,
   backup integrity, gaming power, workspace policy, and drift monitoring.
-- **[Living Brain](https://github.com/BlickandMorty/livingbrain)**
-  - 
+ - **[Living Brain](https://github.com/BlickandMorty/livingbrain)**
+  — A memory system that forgets, learns, and evolves — like a biological brain. Rust library for AI agents with human-like memory.
 
 ## How I work
 
