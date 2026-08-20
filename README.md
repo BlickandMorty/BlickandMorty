@@ -49,7 +49,3 @@ shows depth rather than repository count.
 AI tools assist with implementation, editing, testing, and audit work. The
 research direction, experiments, selection decisions, and responsibility for
 the published results remain mine.
-
-I am interested in stable remote work in AI evaluation, prompt engineering,
-research engineering, developer tooling, or technical-generalist roles that I
-can continue alongside my physics education.
