@@ -5,9 +5,6 @@ and govern. My projects connect AI evaluation and prompt engineering with
 formal methods, mathematical experimentation, deterministic software, and
 practical Windows tooling.
 
-I study Chemical Physics at Columbia University and independently study AI,
-mathematics, philosophy, and the foundations of cognition.
-
 ## Selected work
 
 - **[Epistemos](https://github.com/BlickandMorty/Epistemos)** — research
