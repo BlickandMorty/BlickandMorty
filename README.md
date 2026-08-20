@@ -26,6 +26,8 @@ practical Windows tooling.
   backup integrity, gaming power, workspace policy, and drift monitoring.
  - **[Living Brain](https://github.com/BlickandMorty/livingbrain)**
   — A memory system that forgets, learns, and evolves — like a biological brain. Rust library for AI agents with human-like memory.
+- **[meta-analytical-pfc](https://github.com/BlickandMorty/meta-analytical-pfc)**
+— Archived February 2026 PFC/brainiac research-app experiment; prompt scaffolds are conceptual, not executed statistics.
 
 ## How I work
 
