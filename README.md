@@ -18,8 +18,6 @@ practical Windows tooling.
 - **[Epistemos Labs](https://github.com/BlickandMorty/epistemos-labs)** — a
   tested Rust workspace for evidence gates, deterministic receipts, numerical
   witnesses, scoped agents, and retrieval experiments.
-- **[Formal Primitives](https://github.com/BlickandMorty/epistemos-formal-primitives)**
-  — Lean declarations with an explicit proof-versus-candidate ledger.
 - **[EML-star Epistemos](https://github.com/BlickandMorty/eml-star-epistemos)**
   — an attributed mathematical research derivative with immutable IR, branch
   witnesses, corrected software rules, Lean structure, and reproducible tests.
