@@ -24,6 +24,8 @@ practical Windows tooling.
 - **[Windows Resilience Suite](https://github.com/BlickandMorty/windows-resilience-suite)**
   — audit-first PowerShell modules for performance, maintenance, cleanup,
   backup integrity, gaming power, workspace policy, and drift monitoring.
+- **[Living Brain](https://github.com/BlickandMorty/livingbrain)**
+  - 
 
 ## How I work
 
