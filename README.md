@@ -1,71 +1,59 @@
-# Sensemaking, Radical Honesty & AI Systems
+# Jordan Conley
 
-> *"In an age of abundant AI-generated proofs, human understanding may become more valuable than proof generation itself. [...] If AI can generate thousands of correct proofs, mathematicians can't possibly read, understand, verify, and teach all of them. So the scarce resource in mathematics shifts from finding proofs to making sense of them."*  
-> — **Terence Tao**, *Mathematics in the Age of AI* ([arXiv:2608.16753](https://arxiv.org/abs/2608.16753), August 2026)
+Hi! I'm an undergraduate student studying **Chemical Physics at Columbia University**. I previously did military operations in the Texas Army National Guard (and have an active Secret clearance), and I've spent the past year doing contract **AI red-teaming and evaluation work with Mercor**.
 
----
-
-### 🔬 The "Learning in Public" Manifesto: What I Know & What I Am Learning
-
-I am an undergraduate student studying **Chemical Physics at Columbia University** with hands-on contract experience in **AI red-teaming and evaluation (Mercor)** and tactical operations (U.S. Army National Guard).
-
-In an era where frontier AI models can effortlessly spit out thousands of lines of code and formal syntax, **raw generation is cheap—genuine human comprehension, careful evaluation, and radical honesty are what actually matter.**
-
-To keep expectations crystal clear for collaborators, researchers, and employers, here is an exact, visual breakdown of where my technical proficiencies stand today:
+I spend most of my time building tools, testing where AI models mess up, and exploring math and science.
 
 ---
 
-### 📊 Language & Technical Skill Progress Dashboard
+### What I Know vs. What I'm Learning
 
-| Language / Domain | Current Proficiency | Visual Progress Meter | What It Actually Means |
-| :--- | :--- | :--- | :--- |
-| **AI Eval & Red-Teaming** | 🟢 **Core Strength (Experienced)** | `[████████████████░░░░] 80%` | Strong contract experience (Mercor) writing multi-turn adversarial prompts, premise-poisoning probes, sycophancy checks, and zero-hallucination rubrics. |
-| **HTML / CSS** | 🟢 **Proficient** | `[██████████████░░░░░░] 70%` | Solid understanding of semantic markup, layout structure, document styling, and web fundamentals. |
-| **Python** | 🟡 **Working Core (~45–50%)** | `[██████████░░░░░░░░░░] 48%` | Comfortable with standard library basics, core data structures, control flow, functions, testing harnesses, and reading/modifying scripts. |
-| **Lean 4 (Formal Verification)** | 🟡 **Foundational Basics (~30%)** | `[██████░░░░░░░░░░░░░░] 30%` | Mastered syntax & proofs for 7 core EML foundational theorems; actively studying formal logic and proof tactics alongside Columbia coursework. |
-| **C++** | 🔵 **Beginner Exploration (~15%)** | `[███░░░░░░░░░░░░░░░░░] 15%` | Basic syntax, reading header structures, and native boundary concepts. |
-| **Swift & Rust** | ⚪ **Conceptual / Early Learning (~10%)** | `[██░░░░░░░░░░░░░░░░░░] 10%` | Understand project architecture and runtime concepts; leverage AI to assist with low-level implementation while learning the fundamentals. |
+I believe in being 100% upfront about where my skills actually are today:
 
----
-
-### 📐 Mathematical Formalisms & AI Scaffolding Status
-
-```
-[ AI Formal Scaffolding  ]  ████████████████████  100% (246 Theorem Declarations Mapped across Repos)
-[ Lean 4 Proof Terms     ]  █████████████████░░░   85% (209 Mechanized Proof Terms)
-[ Human Sensemaking      ]  ██░░░░░░░░░░░░░░░░░░  7 / 246 Theorems Understood & Verified
-```
-
-* **7 Core Theorems Mastered:** The initial foundational identities and branch behaviors of the EML operator algebra are fully understood and human-verified.
-* **The 239 Advanced Candidates:** Explored and scaffolded with AI assistance to serve as an active learning syllabus alongside my Columbia University mathematics and physical chemistry coursework.
-* **AI Evaluation Testbed:** Used as a live environment to document where frontier LLMs succeed at generating valid proof terms versus where they produce mathematical hallucinations, invalid branch cuts, or empty tautologies.
+| Skill / Language | Where I'm At | How I Actually Use It |
+| :--- | :--- | :--- |
+| **AI Red-Teaming & Eval** | `[████████████████░░░░] 80%` | My main strength. I've spent months writing adversarial prompts, catching hallucinations, testing edge cases, and grading model reasoning at Mercor. |
+| **HTML & CSS** | `[██████████████░░░░░░] 70%` | Very comfortable with page structure, clean layouts, and styling. |
+| **Python** | `[██████████░░░░░░░░░░] 48%` | I know the core fundamentals (loops, functions, lists/dicts, tests, basic scripts), and I'm actively using it to get better every day. |
+| **Lean 4 / Formal Math** | `[██████░░░░░░░░░░░░░░] 30%` | I understand the basics and have completely worked through the first 7 core theorems in my EML project. The rest is my personal study syllabus. |
+| **C++** | `[███░░░░░░░░░░░░░░░░░] 15%` | Basic syntax and reading header files. |
+| **Swift & Rust** | `[██░░░░░░░░░░░░░░░░░░] 10%` | I understand how the architectures fit together, but I use AI to help write the low-level code while I learn the basics. |
 
 ---
 
-## Selected Work
+### The Math & Research Repos (Keeping It 100% Real)
 
-### Systems, Memory & Reliability Tools
+> *"In an age of abundant AI-generated proofs, human understanding may become more valuable than proof generation itself."*  
+> — **Terence Tao** (August 2026)
 
-- **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** — A biological-style memory engine in Rust featuring Ebbinghaus decay, Poincaré hyperbolic vault topology, tiered sub-millisecond retrieval, and trajectory metrics.
-- **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)** — A cross-platform search engine fusing title ranking, Tantivy BM25, and deterministic vector similarity for ambient note recall.
-- **[Windows Resilience Suite](https://github.com/BlickandMorty/windows-resilience-suite)** — Audit-first PowerShell modules for Windows performance, maintenance, backup integrity, and workspace policy monitoring.
-- **[DataSight-AI](https://github.com/BlickandMorty/DataSight-AI)** — Cross-platform CSV data-quality auditor for missing values, outliers, schema risks, and explainable review.
-- **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)** — 17 tested prompt packs for research, evaluation, memory, agent instructions, approval gates, and durable loops.
+If you look at my math or Lean 4 repos, you'll see a lot of theorem candidates and formal code. I want to be totally clear about how they were made:
 
-### AI Evaluation, Formal Explorations & Learning Notebooks
+* **I used AI to help map out and scaffold these theorem ideas.** It's easy for an AI to generate hundreds of lines of math symbols, but raw generation doesn't mean understanding.
+* **What I actually understand:** Right now, I have human mastery over the **first 7 foundational theorems and core identities** in EML. 
+* **The rest is my study guide:** The other ~200 theorem candidates are my long-term curriculum. I'm using my coursework at Columbia to slowly learn, verify, and make sense of the math for real.
+* **Red-teaming in public:** Working through these repos is also how I test where LLMs succeed at logic and where they hallucinate or make invalid assumptions.
 
-- **[EML-star Epistemos](https://github.com/BlickandMorty/eml-star-epistemos)** — An attributed mathematical research derivative of Andrzej Odrzywołek's Exp-Minus-Log operator (`eml(x,y) = exp(x) - ln(y)`), featuring immutable IR, branch witnesses, and an active learning notebook for complex analysis.
-- **[Epistemos Labs](https://github.com/BlickandMorty/epistemos-labs)** — A tested workspace for evidence gates, deterministic receipts, numerical witnesses, scoped agents, and retrieval experiments.
-- **[Ethos Eval](https://github.com/BlickandMorty/ethos-eval)** — Offline-first deterministic LLM behavior evaluation with explicit weighted rules and reproducible reports.
-- **[OLS vs Gradient Descent](https://github.com/BlickandMorty/ols-vs-gradient-descent)** — Reproducible numerical comparison of closed-form OLS and batch gradient descent, with convergence tests and benchmark falsifiers.
+---
 
-## How I Work
+### My Projects
 
-My recurring engineering loop is:
-`frame -> inspect -> propose -> test -> falsify -> repair -> verify -> stop`
+#### Everyday Tools & Experiments
+* **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** — A memory engine experiment in Rust based on how biological brains remember and forget.
+* **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)** — A fast local search engine for notes and documents.
+* **[Windows Resilience Suite](https://github.com/BlickandMorty/windows-resilience-suite)** — Clean PowerShell scripts for Windows performance, maintenance, and backup health.
+* **[DataSight-AI](https://github.com/BlickandMorty/DataSight-AI)** — A simple tool to check CSV files for missing data, outliers, and schema errors.
+* **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)** — A collection of prompt templates I tested for research, memory, and agent evaluation.
 
-I separate observation from inference, attach tests or evidence to completion claims, preserve uncertainty, and prefer bounded failure over confident invention. In research repositories, “formal,” “analytic,” “conditional,” “numerical,” and “open” are deliberately different statuses.
+#### AI Evaluation & Math Notes
+* **[EML-star Epistemos](https://github.com/BlickandMorty/eml-star-epistemos)** — An exploration of the Exp-Minus-Log operator, branch behaviors, and my public notebook for learning complex analysis.
+* **[Epistemos Labs](https://github.com/BlickandMorty/epistemos-labs)** — Experimental workspace for testing deterministic tools, receipts, and agent safety boundaries.
+* **[Ethos Eval](https://github.com/BlickandMorty/ethos-eval)** — An offline tool for testing LLM behavior against clear, reproducible rules.
+* **[OLS vs Gradient Descent](https://github.com/BlickandMorty/ols-vs-gradient-descent)** — A simple, reproducible comparison between classic OLS math and gradient descent.
 
-## About the Repositories & AI Collaboration
+---
 
-AI tools assist with formal scaffolding, syntax exploration, and test automation. The human sensemaking, evaluation rigor, and commitment to total transparency remain my personal responsibility.
+### How I Like to Work
+
+I try to keep things grounded: **test first, check the facts, don't pretend to know things I don't, and fix mistakes quickly.** 
+
+AI is an amazing tool to help brainstorm, scaffold code, and learn faster, but the real work is human understanding.
