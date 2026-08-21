@@ -9,6 +9,9 @@ practical Windows tooling.
 
 ### Systems & Applied Tooling
 
+- **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)**
+  — A biological-style memory engine in Rust featuring Ebbinghaus decay,
+  Poincaré hyperbolic vault topology, tiered sub-millisecond retrieval, and trajectory metrics.
 - **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)**
   — A cross-platform Rust engine fusing title ranking, Tantivy BM25, and
   deterministic vector similarity for explicit search and ambient note recall.
