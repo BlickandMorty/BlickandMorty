@@ -44,9 +44,9 @@ measurement, and defensive security. The shared question is what happens to a
 decision when evidence is conflicting, contaminated, missing, or mixed with an
 instruction that should not have authority.
 
-* **[Evidence-Conflict Circuits](https://github.com/BlickandMorty/evidence-conflict-circuits)** — A Qwen3 behavioral and residual-patching pilot built from four-valued evidence logic. The 1.7B model reached 13/16; bidirectional patches found a consistent late-layer causal effect, reported with explicit limits.
-* **[Dose-Response Audit Lab](https://github.com/BlickandMorty/dose-response-audit-lab)** — A reproducible 4PL/IC50 recovery benchmark showing when robust fitting helps under a controlled gross-outlier condition.
-* **[Proof-Carrying Policy Evals](https://github.com/BlickandMorty/proof-carrying-policy-evals)** — A synthetic defensive-policy benchmark with a deterministic oracle, SHA-256 case receipts, and an honest Qwen3 failure analysis.
+* **[Evidence-Conflict Circuits](https://github.com/BlickandMorty/evidence-conflict-circuits)** — A 256-case Qwen3 study built from four-valued evidence logic. A preregistered layer-20 intervention generalized to 48 held-out pairs (`+13.38` forward, `−13.26` reverse), while a sparse-transcoder follow-up produced an informative null result that I report rather than hide.
+* **[Dose-Response Audit Lab](https://github.com/BlickandMorty/dose-response-audit-lab)** — Reproducible 4PL/IC50 Monte Carlo studies separating outlier robustness from concentration-window identifiability. Missing a plateau made roughly 69–74% of potency fits at least twofold wrong even when the optimizer reported success.
+* **[Proof-Carrying Policy Evals](https://github.com/BlickandMorty/proof-carrying-policy-evals)** — A defensive ALLOW/DENY/ESCALATE benchmark with a deterministic oracle, SHA-256 receipts, and 96 metamorphic cases that distinguish stable reasoning from being consistently wrong.
 
 #### Everyday Tools & Experiments
 * **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** — A memory engine experiment in Rust based on how biological brains remember and forget.
