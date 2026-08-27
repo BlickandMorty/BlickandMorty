@@ -4,6 +4,8 @@ Hi! I'm an undergraduate student studying **Chemical Physics at Columbia Univers
 
 My research stack has three connected parts: **AI internals, science, and defensive security**. I build controlled experiments around one shared question: what happens when evidence is conflicting, incomplete, contaminated, or checked by a system that is more reliable than the model's first answer?
 
+**[Open the three-stack research portfolio](https://github.com/BlickandMorty/three-stack-research-portfolio)**
+
 ---
 
 ### What I Know vs. What I'm Learning
