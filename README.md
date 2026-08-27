@@ -2,7 +2,7 @@
 
 Hi! I'm an undergraduate student studying **Chemical Physics at Columbia University**. I previously did military operations in the Texas Army National Guard (and have an active Secret clearance), and I've spent the past year doing contract **AI red-teaming and evaluation work with Mercor**.
 
-I spend most of my time building tools, testing where AI models mess up, and exploring math and science.
+My research stack has three connected parts: **AI internals, science, and defensive security**. I build controlled experiments around one shared question: what happens when evidence is conflicting, incomplete, contaminated, or checked by a system that is more reliable than the model's first answer?
 
 ---
 
@@ -45,8 +45,10 @@ decision when evidence is conflicting, contaminated, missing, or mixed with an
 instruction that should not have authority.
 
 * **[Evidence-Conflict Circuits](https://github.com/BlickandMorty/evidence-conflict-circuits)** — A 256-case Qwen3 study built from four-valued evidence logic. A preregistered layer-20 intervention generalized to 48 held-out pairs (`+13.38` forward, `−13.26` reverse), while a sparse-transcoder follow-up produced an informative null result that I report rather than hide.
+* **[Scientific Reasoning Audit Loops](https://github.com/BlickandMorty/scientific-reasoning-audit-loops)** — A 72-case held-out chemistry/physics/biology study on Qwen3 1.7B. Direct scratchpads scored `61.1%`; a generated self-audit reached `79.2%` (`+18.1` points, paired 95% CI `+6.9` to `+29.2`) but also broke three correct answers. A verifier-gated loop reached `76.4%` with no regressions by design.
 * **[Dose-Response Audit Lab](https://github.com/BlickandMorty/dose-response-audit-lab)** — Reproducible 4PL/IC50 Monte Carlo studies separating outlier robustness from concentration-window identifiability. Missing a plateau made roughly 69–74% of potency fits at least twofold wrong even when the optimizer reported success.
 * **[Proof-Carrying Policy Evals](https://github.com/BlickandMorty/proof-carrying-policy-evals)** — A defensive ALLOW/DENY/ESCALATE benchmark with a deterministic oracle, SHA-256 receipts, and 96 metamorphic cases that distinguish stable reasoning from being consistently wrong.
+* **[Lattice State Consistency Lab](https://github.com/BlickandMorty/lattice-state-consistency-lab)** — An exhaustive finite-state test of my data-as-lattice idea. The product representation passed every lattice law and 2,592 migration homomorphism checks, but the cross-system validity subset failed closure under both meet and join; the smallest counterexamples are saved instead of smoothing over the theorem boundary.
 
 #### Everyday Tools & Experiments
 * **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** — A memory engine experiment in Rust based on how biological brains remember and forget.
