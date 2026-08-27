@@ -37,6 +37,17 @@ If you look at my math or Lean 4 repos, you'll see a lot of theorem candidates a
 
 ### My Projects
 
+#### Current Research Program — Evidence Under Pressure
+
+My current work connects three things I care about: AI internals, scientific
+measurement, and defensive security. The shared question is what happens to a
+decision when evidence is conflicting, contaminated, missing, or mixed with an
+instruction that should not have authority.
+
+* **[Evidence-Conflict Circuits](https://github.com/BlickandMorty/evidence-conflict-circuits)** — A Qwen3 behavioral and residual-patching pilot built from four-valued evidence logic. The 1.7B model reached 13/16; bidirectional patches found a consistent late-layer causal effect, reported with explicit limits.
+* **[Dose-Response Audit Lab](https://github.com/BlickandMorty/dose-response-audit-lab)** — A reproducible 4PL/IC50 recovery benchmark showing when robust fitting helps under a controlled gross-outlier condition.
+* **[Proof-Carrying Policy Evals](https://github.com/BlickandMorty/proof-carrying-policy-evals)** — A synthetic defensive-policy benchmark with a deterministic oracle, SHA-256 case receipts, and an honest Qwen3 failure analysis.
+
 #### Everyday Tools & Experiments
 * **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** — A memory engine experiment in Rust based on how biological brains remember and forget.
 * **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)** — A fast local search engine for notes and documents.
