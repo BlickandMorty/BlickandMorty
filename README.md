@@ -56,7 +56,7 @@ instruction that should not have authority.
 * **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)** — A collection of prompt templates I tested for research, memory, and agent evaluation.
 
 #### AI Evaluation & Math Notes
-* **[EML-star Epistemos](https://github.com/BlickandMorty/eml-star-epistemos)** — An exploration of the Exp-Minus-Log operator, branch behaviors, and my public notebook for learning complex analysis.
+* **[EML-star Epistemos](https://github.com/BlickandMorty/eml-star-epistemos)** — An Exp-Minus-Log and branch-analysis toolkit. My latest audit formally falsifies the closed grammar's density claim: without a coordinate terminal every generated term is input-independent, so Stone-Weierstrass point separation fails.
 * **[Epistemos Labs](https://github.com/BlickandMorty/epistemos-labs)** — Experimental workspace for testing deterministic tools, receipts, and agent safety boundaries.
 * **[Ethos Eval](https://github.com/BlickandMorty/ethos-eval)** — An offline tool for testing LLM behavior against clear, reproducible rules.
 * **[OLS vs Gradient Descent](https://github.com/BlickandMorty/ols-vs-gradient-descent)** — A simple, reproducible comparison between classic OLS math and gradient descent.
