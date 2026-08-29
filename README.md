@@ -2,9 +2,9 @@
 
 Hi! I'm an undergraduate student studying **Chemical Physics at Columbia University**. I previously did military operations in the Texas Army National Guard (and have an active Secret clearance), and I've spent the past year doing contract **AI red-teaming and evaluation work with Mercor**.
 
-My research stack has three connected parts: **AI internals, science, and defensive security**. I build controlled experiments around one shared question: what happens when evidence is conflicting, incomplete, contaminated, or checked by a system that is more reliable than the model's first answer?
+My research stack has three connected parts: **AI internals, science, and defensive security**. I run controlled experiments around one shared question: what happens when evidence is conflicting, incomplete, contaminated, or checked by a system that is more reliable than the model's first answer?
 
-**[Open the three-stack research portfolio](https://github.com/BlickandMorty/three-stack-research-portfolio)**
+**[Open the three-stack research portfolio](https://three-stack-research-portfolio.vercel.app)** · **[Read the complete study atlas](https://github.com/BlickandMorty/three-stack-research-portfolio/blob/main/RESEARCH_ATLAS.md)**
 
 ---
 
@@ -33,7 +33,7 @@ If you look at my math or Lean 4 repos, you'll see a lot of theorem candidates a
 * **I used AI to help map out and scaffold these theorem ideas.** It's easy for an AI to generate hundreds of lines of math symbols, but raw generation doesn't mean understanding.
 * **What I actually understand:** Right now, I have human mastery over the **first 7 foundational theorems and core identities** in EML. 
 * **The rest is my study guide:** The other ~200 theorem candidates are my long-term curriculum. I'm using my coursework at Columbia to slowly learn, verify, and make sense of the math for real.
-* **Red-teaming in public:** Working through these repos is also how I test where LLMs succeed at logic and where they hallucinate or make invalid assumptions.
+* **Testing and study:** Working through these repos is also how I test where LLMs succeed at logic and where they hallucinate or make invalid assumptions.
 
 ---
 
