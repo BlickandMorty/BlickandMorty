@@ -1,48 +1,36 @@
 # Jordan Conley
 
-I am a Chemical Physics undergraduate at Columbia University and a Texas Army National Guard veteran. My strongest direct experience is in paid AI evaluation and red-teaming work, operational reporting, incident logs, shift handoffs, mapping support, and organizing information for other people to use.
+I am a Chemical Physics undergraduate at Columbia University and a Texas Army National Guard veteran. My strongest direct experience is paid AI evaluation, operational reporting, incident logs, mapping support, shift handoffs, and organizing information so other people can use it.
 
-## What I focus on
+I am looking for part-time or remote work in AI evaluation, research support, data operations, GIS support, and entry-level defensive security.
 
-- **AI evaluation:** adversarial prompts, model-output review, written rationales, hallucination checks, and refusal quality.
-- **Security and operations:** documentation, escalation, careful handling of operational information, reporting, and reliable procedures.
-- **Research tools:** local-first research workflows, evidence checking, and small experiments that are designed to be rerun and questioned.
+## What I actually know
 
-## My technical level
+- **Paid work:** model-output evaluation, adversarial prompts, written rationales, hallucination and refusal review, operational reporting, Excel/Sheets tracking, briefings, incident logs, and escalation.
+- **Self-learning:** Python, SQL, Git/GitHub, HTML/CSS, PowerShell, Wireshark, QGIS/ArcGIS, Rust, and local AI tools.
+- **How I build:** I use AI heavily for coding and documentation. I choose the problem, shape the prompts and constraints, run the work, inspect failures, and keep learning the code underneath it. I do not claim that AI-assisted code makes me an expert in every language shown here.
 
-I use AI-assisted coding and regular research to learn quickly and build projects. That does not mean I claim to be an expert in every language a project uses. It means I can turn an idea into a testable project, ask better questions, run it, inspect what happened, fix problems, and keep learning the parts underneath it.
+## Selected public work
 
-I am actively learning Python, SQL, Git/GitHub, HTML/CSS, PowerShell, Wireshark, QGIS/ArcGIS, and Windows security tools. I am also learning Rust and Lean 4 more slowly through Epistemos and the formal-math material.
+### Product, retrieval, and memory
 
-## How I show AI assistance
+- **[Epistemos](https://github.com/BlickandMorty/Epistemos)** - the main research-workspace direction. I can discuss the product idea, evidence and retrieval workflow, working app surfaces, and what is still unfinished.
+- **[Epistemos Instant Recall](https://github.com/BlickandMorty/epistemos-instant-recall)** - a local search and retrieval companion built around inspectable ranking rather than pretending every result is semantic understanding.
+- **[LivingBrain](https://github.com/BlickandMorty/LivingBrain)** - an AI-assisted memory experiment about decay, reinforcement, contradiction handling, and reusable skills. The biological language is an analogy for system behavior, not a claim that the software recreates a human brain.
 
-I use a simple project-status label instead of pretending that every line of code was written the same way:
+### AI research
 
-| Label | What it means |
-| --- | --- |
-| **AI assistance: substantial** | AI helped scaffold or revise much of the implementation and documentation. I defined the goal, ran the work, reviewed the result, and can explain the project at a high level and its limits. |
-| **AI assistance: moderate** | I built or edited important parts directly and used AI for debugging, research, refactoring, or difficult pieces. |
-| **AI assistance: limited** | I built most of the work directly and used AI mainly for search, feedback, or small revisions. |
+- **[Scientific Reasoning Audit Loops](https://github.com/BlickandMorty/scientific-reasoning-audit-loops)** - a reproducible small-model experiment testing whether self-review and a narrow verifier improve controlled science problems. It keeps regressions and limits visible.
+- **[Unified Address Space Reasoning Lab](https://github.com/BlickandMorty/unified-address-space-reasoning-lab)** - a retrieval experiment testing whether typed, stable addresses reduce cross-domain evidence confusion. One test tied and another narrow ablation improved, so the README preserves both results.
 
-The label describes the development process, not whether the work is real. Every public experiment should still show what was run, what happened, and where it failed.
+### Data, security, and evaluation practice
 
-## Work I can directly discuss
+- **[DataSight](https://github.com/BlickandMorty/DataSight-AI)** - a Python CSV quality checker for missing values, outliers, schema risks, and reviewable explanations.
+- **[Security Operations Lab](https://github.com/BlickandMorty/security-operations-lab)** - authorized personal-lab exercises using Wireshark/TShark, Nmap, Windows records, and reporting. It is practice, not professional incident-response or penetration-testing experience.
+- **[Epistemos Prompt Lab](https://github.com/BlickandMorty/epistemos-prompt-lab)** - prompt and evaluation patterns built around evidence, falsifiers, careful editing, approval boundaries, and repeatable review.
 
-- **[Epistemos](https://github.com/BlickandMorty/Epistemos):** my research-workspace direction and the ideas behind its evidence, retrieval, and editing workflows.
-- **[epistemos-windows](https://github.com/BlickandMorty/epistemos-windows):** the Windows version and its architecture as a learning and development project.
-- **[Windows Resilience Suite](https://github.com/BlickandMorty/windows-resilience-suite):** practical PowerShell automation and Windows-maintenance work.
-- **[Scientific Reasoning Audit Loops](https://github.com/BlickandMorty/scientific-reasoning-audit-loops):** a public, reproducible experiment about whether review and verification steps improve controlled scientific-reasoning tasks.
+The public profile is intentionally small. Other repositories are private supporting work, failed ideas, study material, or experiments that I am not ready to present as separate expertise.
 
-## Public experiments and research notes
+## AI-assistance labels
 
-This profile also includes public experiments across AI, science, and defensive security. I am keeping them public because the useful part is being able to inspect the method, see the failures, and rerun the work.
-
-These projects are learning and research artifacts, not a claim that I have a PhD or production-level expertise in every library, model, or mathematical method they use. I used AI to help brainstorm, scaffold code, revise documentation, and test ideas. Each experiment should be judged by its own README, controls, results, and stated limits.
-
-For the EML and Lean material: I have worked through and can discuss the first seven foundational theorems and identities. The larger collection of theorem candidates remains public as a study corpus and long-term curriculum, not as a claim that I have personally mastered or formally proved every statement.
-
-## How I work
-
-I try to keep projects simple about what happened: test the idea, keep the result even when it fails, separate observation from interpretation, and say what I do not know yet. AI helps me move faster, but understanding the work is the part I am building for real.
-
-I am interested in part-time or remote work in AI evaluation, research support, technical operations, GIS/data support, and entry-level security while I continue my education.
+Public projects use plain labels such as **substantial**, **moderate**, or **limited** AI assistance. Substantial means AI helped write or revise much of the implementation. The work still needs real inputs, saved outputs, checks, failures, and a limit I can explain.
